@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-3-218-171-44.compute-1.amazonaws.com/daj5nku2p7kdv6
+    url: jdbc:postgresql://ec2-3-218-171-44.compute-1.amazonaws.com:5432/daj5nku2p7kdv6
     username: tuedaopibbrimr
     password: ea594117ae7908f386fab597274e9d2d25e605f524a82e064396515d39011e97
   jpa:
