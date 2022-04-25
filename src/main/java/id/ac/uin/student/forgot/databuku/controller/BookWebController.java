@@ -14,9 +14,9 @@ public class BookWebController {
     private BookService bookService;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index2(Model model) {
         model.addAttribute("book", bookService.getAllBook());
-        return "index2";
+        return "indexBook";
     }
 
     @GetMapping(value = "/create")
