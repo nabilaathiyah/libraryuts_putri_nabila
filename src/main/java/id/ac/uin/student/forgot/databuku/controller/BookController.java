@@ -1,6 +1,6 @@
 package id.ac.uin.student.forgot.databuku.controller;
 
-import id.ac.uin.student.forgot.databuku.service.framework.BookService;
+import id.ac.uin.student.forgot.databuku.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package id.ac.uin.student.forgot.databuku.service.framework;
+package id.ac.uin.student.forgot.databuku.service;
 
 import java.util.List;
 import java.util.Optional;

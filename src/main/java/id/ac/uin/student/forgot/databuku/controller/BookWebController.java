@@ -1,6 +1,6 @@
 package id.ac.uin.student.forgot.databuku.controller;
 
-import id.ac.uin.student.forgot.databuku.service.framework.BookService;
+import id.ac.uin.student.forgot.databuku.service.BookService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

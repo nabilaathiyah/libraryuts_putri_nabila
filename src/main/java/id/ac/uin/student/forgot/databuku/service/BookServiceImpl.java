@@ -1,6 +1,5 @@
-package id.ac.uin.student.forgot.databuku.service.implementation;
+package id.ac.uin.student.forgot.databuku.service;
 
-import id.ac.uin.student.forgot.databuku.service.framework.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
