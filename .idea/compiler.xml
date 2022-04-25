@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="forgot password" target="16" />
+      <module name="forgot password" target="17" />
       <module name="forgot-password" target="16" />
     </bytecodeTargetLevel>
   </component>
