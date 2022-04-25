@@ -2,26 +2,23 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-3-218-171-44.compute-1.amazonaws.com/daj5nku2p7kdv6
-    username: tuedaopibbrimr
-    password: ea594117ae7908f386fab597274e9d2d25e605f524a82e064396515d39011e97
+    url: jdbc:mysql://localhost:3306/password_reset?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false
+    username: root
+    password:
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-  config:
-    activate:
-      on-profile: dev
+        dialect: org.hibernate.dialect.MySQL8Dialect
   messages:
     basename: base
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    username: bilaathiyah64@gmail.com
-    password: wsearwkhqqijdmqr
+    username: username
+    password: password
     port: 587
     properties:
       mail:
@@ -30,7 +27,7 @@ spring:
           starttls:
             enable: true
             required: true
-          connection-timeout: 30000
+          connectiontimeout: 30000
           timeout: 30000
     protocol: smtp
     test-connection: false
